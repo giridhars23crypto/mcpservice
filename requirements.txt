@@ -1,8 +1,25 @@
-langchain-core
-langchain-openai
-langchain-mcp-adapters
-langgraph
-python-dotenv
-fpdf
-uuid
-mcp[cli]
+# Core dependencies
+python-dotenv==1.1.0
+openai==1.78.1
+openai-agents==0.0.15
+mcp==1.9.0
+
+# For flight and hotel servers
+amadeus==12.0.0
+sqlite3  # Part of Python standard library
+
+# For invoice generation
+fpdf==1.7.2
+uuid==1.30
+
+# Required by MCP and OpenAI agents
+pydantic==2.11.4
+pydantic-core==2.33.2
+typing_extensions==4.13.2
+anyio==4.9.0
+httpx==0.28.1
+httpx-sse==0.4.0
+
+# For async operations
+asyncio  # Part of Python standard library
+
