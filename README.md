@@ -66,14 +66,14 @@ Here are some example queries you can try with the system:
 ### Flight Search
 ```
 "I want to search for flights from New York to London"
-"Find me flights to Tokyo"
+"Find me flights to Tokyo for next week"
 "What flights are available from Los Angeles to Miami on 2024-05-20?"
 ```
 
 ### Flight Booking
 ```
-"I want to book flight number 2"
-"Book a flight with my customer ID 1234"
+"I want to book flight number FL1234"
+"Book a flight with my customer ID CUST123"
 "Help me book the flight I just searched for"
 ```
 
@@ -87,6 +87,8 @@ Here are some example queries you can try with the system:
 ### General Queries
 ```
 "What services do you offer?"
+"Can you help me plan a trip?"
+"I need to modify my booking"
 ```
 
 ## Agent Capabilities
